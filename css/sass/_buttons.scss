@@ -1,0 +1,10 @@
+/* Normal Buttons Style */
+
+// Base Styles
+// ----------------------------
+
+// Core
+.btn{
+	display: inline-block;
+	@include ie7-inline-block();
+}

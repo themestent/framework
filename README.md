@@ -1,4 +1,4 @@
-framework
-=========
+themes-tent-framework
+=====================
 
-ThemesTent Framework
+HTML5 Framework for Themes Tent

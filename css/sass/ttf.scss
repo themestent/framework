@@ -1,0 +1,38 @@
+	/*!
+	* ThemesTent v0.1
+	*
+	* Copyright 2012 SME, Bangladesh
+	* Licensed under the Apache License v2.0
+	* http://www.apache.org/licenses/LICENSE-2.0
+	*
+	* Designed and built with passion by @evanshajed
+	*/
+	@import "compass/css3";
+	@import "compass/typography";
+
+	/* CSS Reset */
+	@import "reset";
+	@import "../../components/typeplate/scss/typeplate";
+
+	/* Core Variables & Mixins */
+	@import "variables";
+	@import "mixins";
+
+	/* Global Styles */
+	@import "global";
+
+	/* Grid System and page structure */
+	@import "grid";
+
+	/* Layouts Style */
+
+	@import "layouts";
+
+	/* Buttons Style */
+	@import "buttons";
+
+
+
+	/* Custom Styling Options Will Be placed Here */
+
+	/* Custom Styling Options Will Be placed Here */
