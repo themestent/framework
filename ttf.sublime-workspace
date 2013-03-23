@@ -519,62 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2277,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/component.json",
-			"settings":
-			{
-				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/sass/ttf.scss",
-			"settings":
-			{
-				"buffer_size": 732,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/bx-slider.scss",
-			"settings":
-			{
-				"buffer_size": 3878,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/sass/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 10430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/sass/_global.scss",
-			"settings":
-			{
-				"buffer_size": 48,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/typeplate/scss/_typeplate.scss",
-			"settings":
-			{
-				"buffer_size": 16822,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -628,6 +572,7 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/ttf-docs/source/index.rst",
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/iconic_stroke.css",
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/iconic_stroke.scss",
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/iconic_fill.scss",
@@ -649,7 +594,6 @@
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/stylesheets/ttf.css",
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/grid.scss",
 		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/ttf-docs/build/html/index.html",
-		"/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/ttf-docs/source/index.rst",
 		"/Applications/MAMP/htdocs/ThemesTent/TemesTentDev/themes-tent-framework/css/main.css",
 		"/Applications/MAMP/htdocs/know-your-coverage/kyc-m-framework/quiz-page-structure.html",
 		"/Applications/MAMP/htdocs/know-your-coverage/kyc-m-framework/structure-quiz-page.html",
@@ -773,6 +717,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images/",
 			"dropdown",
 			"touch",
 			"<h2>SELECT WHICH QUIZ YOU WANT TO RETAKE?</h2>",
@@ -899,8 +844,7 @@
 			"section",
 			"primary-widget-area",
 			"sidebar",
-			"widget-area ul ul",
-			"widget-title"
+			"widget-area ul ul"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -908,6 +852,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"../img/",
 			"<h2>SELECT WHICH QUIZ YOU WANT TO RETAKE.</h2>",
 			"<a href=\"#\" data-slidemenu=\".slidemenus\" data-slideopen=\"false\" data-icon=\"smico\" data-corners=\"false\" data-iconshadow=\"false\" data-shadow=\"false\"><span class=\"smenu\">MENU</span></a>",
 			"quiz-page-belongings.html",
@@ -966,207 +911,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 2277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1819,
-								1819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 729.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/component.json",
-					"settings":
-					{
-						"buffer_size": 379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 7.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "css/sass/ttf.scss",
-					"settings":
-					{
-						"buffer_size": 732,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								465,
-								465
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 140.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/bx-slider.scss",
-					"settings":
-					{
-						"buffer_size": 3878,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3878,
-								3878
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3323.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/sass/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 10430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4005,
-								4005
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1854.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/sass/_global.scss",
-					"settings":
-					{
-						"buffer_size": 48,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "components/typeplate/scss/_typeplate.scss",
-					"settings":
-					{
-						"buffer_size": 16822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 670.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1198,7 +949,7 @@
 		"cols":
 		[
 			0.0,
-			0.534078609334,
+			0.457292366185,
 			1.0
 		],
 		"rows":
