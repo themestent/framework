@@ -523,7 +523,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1839,
+				"buffer_size": 2277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/component.json",
+			"settings":
+			{
+				"buffer_size": 379,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,15 @@
 			"file": "css/sass/ttf.scss",
 			"settings":
 			{
-				"buffer_size": 710,
+				"buffer_size": 732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/bx-slider.scss",
+			"settings":
+			{
+				"buffer_size": 3878,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +563,7 @@
 			"file": "css/sass/_global.scss",
 			"settings":
 			{
-				"buffer_size": 380,
+				"buffer_size": 48,
 				"line_ending": "Unix"
 			}
 		},
@@ -958,15 +974,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1839,
+						"buffer_size": 2277,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1407,
-								1407
+								1819,
+								1819
 							]
 						],
 						"settings":
@@ -976,7 +992,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 556.0,
+						"translation.y": 729.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/component.json",
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 7.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -984,23 +1028,23 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "css/sass/ttf.scss",
 					"settings":
 					{
-						"buffer_size": 710,
+						"buffer_size": 732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								345,
-								345
+								465,
+								465
 							]
 						],
 						"settings":
@@ -1009,13 +1053,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 140.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/ThemesTent/ThemesTentDev/themes-tent-framework/css/sass/bx-slider.scss",
+					"settings":
+					{
+						"buffer_size": 3878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3878,
+								3878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3323.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "css/sass/_variables.scss",
 					"settings":
 					{
@@ -1041,11 +1113,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "css/sass/_global.scss",
 					"settings":
 					{
-						"buffer_size": 380,
+						"buffer_size": 48,
 						"regions":
 						{
 						},
@@ -1069,7 +1141,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "components/typeplate/scss/_typeplate.scss",
 					"settings":
 					{
@@ -1090,7 +1162,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13756.0,
+						"translation.y": 670.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1126,7 +1198,7 @@
 		"cols":
 		[
 			0.0,
-			0.293973751907,
+			0.534078609334,
 			1.0
 		],
 		"rows":

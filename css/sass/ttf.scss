@@ -9,7 +9,6 @@
 	*/
 	@import "compass/css3";
 	@import "compass/typography";
-
 	/* CSS Reset */
 	@import "reset";
 	@import "../../components/typeplate/scss/typeplate";
@@ -30,6 +29,8 @@
 
 	/* Buttons Style */
 	@import "buttons";
+
+	@import "bx-slider";
 
 
 
