@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
+    "\/js\/waypoints.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/waypoints.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/waypoints.min-ck.js",
+      "fileType" : 64
+    },
     "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -11,17 +22,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/waypoints.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/waypoints.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/waypoints.min-ck.js",
       "fileType" : 64
     },
     "\/components\/typeplate\/scss\/_typeplate.scss" : {
@@ -143,7 +143,7 @@
     },
     "\/js\/jquery.scrollUp.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/jquery.scrollUp.min.js",
@@ -166,7 +166,7 @@
     },
     "\/js\/jquery.smooth-scroll.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
@@ -257,15 +257,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/mailing-list-ck.js" : {
+    "\/js\/plugins-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/mailing-list-ck.js",
+      "inputAbbreviatedPath" : "\/js\/plugins-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/mailing-list-ck-ck.js",
+      "outputAbbreviatedPath" : "\/js\/plugins-ck-ck.js",
       "fileType" : 64
     },
     "\/components\/fastclick\/lib\/fastclick.js" : {
@@ -291,15 +291,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/plugins-ck.js" : {
+    "\/js\/mailing-list-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "inputAbbreviatedPath" : "\/js\/mailing-list-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/plugins-ck-ck.js",
+      "outputAbbreviatedPath" : "\/js\/mailing-list-ck-ck.js",
       "fileType" : 64
     },
     "\/css\/sass\/_responsive-768px-979px.scss" : {
@@ -648,18 +648,6 @@
       "initialSize" : 368,
       "fileType" : 8192
     },
-    "\/css\/sass\/socialcount.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/socialcount.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/socialcount.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/ttf-docs\/build\/html\/_static\/doctools-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -670,6 +658,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/doctools-ck-ck.js",
       "fileType" : 64
+    },
+    "\/css\/sass\/socialcount.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/sass\/socialcount.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/socialcount.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/ttf-docs\/build\/html\/searchindex.js" : {
       "ignoreWasSetByUser" : 0,
@@ -706,15 +706,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/components\/fastclick\/tests\/10.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/10.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/ttf-docs\/build\/html\/_static\/sidebar-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -725,6 +716,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/sidebar-ck-ck.js",
       "fileType" : 64
+    },
+    "\/components\/fastclick\/tests\/10.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/10.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/ttf-docs\/build\/html\/_static\/sidebar.js" : {
       "ignoreWasSetByUser" : 0,
@@ -781,7 +781,7 @@
     },
     "\/js\/jquery.imageloader.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/jquery.imageloader.js",
@@ -895,7 +895,7 @@
     },
     "\/js\/jquery.lazyload.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/jquery.lazyload.min.js",
@@ -903,17 +903,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/jquery.lazyload.min-ck.js",
       "fileType" : 64
-    },
-    "\/img\/controls.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/controls.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/controls.png",
-      "initialSize" : 2806,
-      "fileType" : 8192
     },
     "\/components\/fastclick\/tests\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -935,9 +924,20 @@
       "outputAbbreviatedPath" : "\/components\/FitText.js\/jquery.fittext-ck.js",
       "fileType" : 64
     },
+    "\/img\/controls.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/controls.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/controls.png",
+      "initialSize" : 2806,
+      "fileType" : 8192
+    },
     "\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/bootstrap.js",
@@ -1139,7 +1139,7 @@
     },
     "\/js\/socialcount.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/socialcount.min.js",
@@ -1363,92 +1363,43 @@
     {
       "type" : 1,
       "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/js\/plugins.js",
-      "baseFileAbbreviatedPath" : "\/js\/ttf.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/js\/bootstrap.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 1,
       "linkedFileAbbreviatedPath" : "\/components\/bxslider-4\/plugins\/jquery.easing.1.3.js",
       "baseFileAbbreviatedPath" : "\/js\/plugins.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 2,
+      "position" : 1,
       "linkedFileAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider.min.js",
       "baseFileAbbreviatedPath" : "\/js\/plugins.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 3,
+      "position" : 2,
       "linkedFileAbbreviatedPath" : "\/components\/FitText.js\/jquery.fittext.js",
       "baseFileAbbreviatedPath" : "\/js\/plugins.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 4,
+      "position" : 3,
       "linkedFileAbbreviatedPath" : "\/components\/fastclick\/lib\/fastclick.js",
       "baseFileAbbreviatedPath" : "\/js\/plugins.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 5,
+      "position" : 4,
       "linkedFileAbbreviatedPath" : "\/components\/bxslider-4\/plugins\/jquery.fitvids.js",
       "baseFileAbbreviatedPath" : "\/js\/plugins.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 6,
-      "linkedFileAbbreviatedPath" : "\/js\/socialcount.min.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 7,
-      "linkedFileAbbreviatedPath" : "\/js\/jquery.imageloader.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 8,
-      "linkedFileAbbreviatedPath" : "\/js\/jquery.lazyload.min.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 9,
-      "linkedFileAbbreviatedPath" : "\/js\/jquery.scrollUp.min.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 10,
-      "linkedFileAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 11,
-      "linkedFileAbbreviatedPath" : "\/js\/waypoints.min.js",
-      "baseFileAbbreviatedPath" : "\/js\/plugins.js",
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/js\/plugins.js",
+      "baseFileAbbreviatedPath" : "\/js\/ttf.js",
       "followForSyntaxChecking" : 1
     }
   ],
