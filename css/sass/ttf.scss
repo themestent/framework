@@ -1,38 +1,55 @@
-	/*!
-	* ThemesTent v0.1
-	*
-	* Copyright 2012 SME, Bangladesh
-	* Licensed under the Apache License v2.0
-	* http://www.apache.org/licenses/LICENSE-2.0
-	*
-	* Designed and built with passion by @evanshajed
-	*/
-	@import "compass/css3";
-	@import "compass/typography";
-	/* CSS Reset */
-	@import "reset";
-	@import "../../components/typeplate/scss/typeplate";
+    /*!
+    * ThemesTent Framework v0.1
+    *
+    * Copyright 2012 ThemesTent, Bangladesh
+    *
+    * Designed and built with passion by @themestent
+    */
+    @import "compass/css3";
+    @import "compass/typography";
+    /* CSS Reset */
+    @import "reset";
 
-	/* Core Variables & Mixins */
-	@import "variables";
-	@import "mixins";
+    // Typography Template
+    @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Open+Sans|Open+Sans+Condensed:300|Abril+Fatface);
+    @import "../../components/typeplate/scss/typeplate";
 
-	/* Global Styles */
-	@import "global";
+    // Importing ThemesTent Native Source Icon
+    // It is optional
+    @import "ttf-source-icon";
 
-	/* Grid System and page structure */
-	@import "grid";
+    /* Core Variables & Mixins */
+    @import "variables";
+    @import "mixins";
 
-	/* Layouts Style */
-
-	@import "layouts";
-	@import "responsive";
-	/* Buttons Style */
-	@import "buttons";
-	@import "bx-slider";
+    // Scaffolding
+    @import "scaffolding";
 
 
+    /* Global Styles */
+    @import "global";
 
-	/* Custom Styling Options Will Be placed Here */
+    /* Grid System and page structure */
+    @import "grid";
 
-	/* Custom Styling Options Will Be placed Here */
+
+    /* Layouts Style */
+    @import "layouts";
+    @import "responsive";
+    @import "retina";
+    @import "modular";
+    @import "helper";
+
+    /* Adaptive Image Framework ( This is optional ) */
+    @import "focal-point";
+
+    /* Buttons Style */
+    @import "buttons";
+    @import "bx-slider";
+
+    @import "form";
+    @import "animate";
+
+    body{
+
+    }

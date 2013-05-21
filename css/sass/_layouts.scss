@@ -4,6 +4,9 @@
 
 
 // Container (centered, fixed-width layouts)
+.full-container{
+    @include clearfix();
+}
 .container {
   @include container-fixed();
 }

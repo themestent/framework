@@ -1,5 +1,1 @@
-/*
-========================================
-Main Themes Framework JavaScript File
-========================================
-*/
+// Themestent Framework Main plugins bundle

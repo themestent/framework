@@ -2,16 +2,22 @@
 // Variables
 // --------------------------------------------------
 
+// Custom Template Depended Variables
+
+$inviteSectionTextColor: #414040 !default;
 
 // Global values
 // --------------------------------------------------
+
 
 
 // Grays
 // -------------------------
 $black:                 #000 !default;
 $grayDarker:            #222 !default;
+$grayDarkerLight:       #262626 !default;
 $grayDark:              #333 !default;
+$graySemiDark:          #4d4d4d !default;
 $gray:                  #555 !default;
 $grayLight:             #999 !default;
 $grayLighter:           #eee !default;
@@ -32,13 +38,15 @@ $purple:                #7a43b6 !default;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        $white !default;
-$textColor:             $grayDark !default;
-
+$bodyBackground:        #f3f3f3 !default;
+$textColor:             $graySemiDark !default;
+$bannerTitleColor:      #2e2e2e !default;
+$bannerTitleSubColor:        #ececec !default;
+$bannerTitleBGColor:    #383838 !default;
 
 // Links
 // -------------------------
-$linkColor:             #08c !default;
+$linkColor:             #0096db !default;
 $linkColorHover:        darken($linkColor, 15%) !default;
 
 
@@ -47,6 +55,10 @@ $linkColorHover:        darken($linkColor, 15%) !default;
 $sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$ptSansFontFamily:      'PT Sans', sans-serif !default;
+$openSansFontFamily:          'Open Sans', sans-serif !default;
+$openSansCondensedFontFamily:         'Open Sans Condensed', sans-serif !default;
+$abrialFontFamily:      'Abril Fatface', cursive !default;
 
 $bodyFontSize:          16px !default;
 $baseFontSize:          1em !default;
@@ -111,10 +123,10 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 // Forms
 // -------------------------
 $inputBackground:               $white !default;
-$inputBorder:                   #ccc !default;
+$inputBorder:                   #f59819 !default;
 $inputBorderRadius:             $baseBorderRadius !default;
 $inputDisabledBackground:       $grayLighter !default;
-$formActionsBackground:         #f5f5f5 !default;
+$formActionsBackground:         #ff7000 !default;
 $inputHeight:                   $baseLineHeight + 0.5em; // base line-height + 8px vertical padding + 2px top/bottom border
 
 
