@@ -561,6 +561,56 @@
 }
 
 
+// Responsive Breakpoints
+
+@mixin breakpoint($point) {
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @if $point == sp-portrait-lanscape {
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { @content; }
+  }
+
+  /* Smartphones (landscape) ----------- */
+  @if $point == sp-landscape {
+    @media only screen and (min-width: 321px) { @content; }
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @else if $point == sp-portrait {
+    @media only screen and (max-width: 320px) { @content; }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @else if $point == ipad-portrait-landscape {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { @content; }
+  }
+
+  /* iPads (landscape) ----------- */
+  @else if $point == ipad-landscape {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; }
+  }
+
+  /* iPads (portrait) ----------- */
+  @else if $point == ipad-portrait {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; }
+  }
+
+  /* Desktops and laptops ----------- */
+  @else if $point == desktop-laptops {
+    @media only screen and (min-width : 1224px) { @content; }
+  }
+
+  /* Large Screens ----------- */
+  @else if $point == large-screens {
+    @media only screen and (min-width : 1824px) { @content; }
+  }
+
+  /* iPhone 4 ----------- */
+  @else if $point == iPhone {
+    @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)  { @content; }
+  }
+}
+
 
 // Grid System
 // -----------
