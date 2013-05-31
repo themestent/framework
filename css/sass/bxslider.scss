@@ -93,6 +93,14 @@
     }
 }
 
+/* bxSlider ul li styles */
+
+.bxslider{
+    margin: 0;
+    padding: 0;
+    li{    }
+}
+
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper{
@@ -107,7 +115,7 @@
         right: 10px;
         background: url(../img/controls.png) no-repeat -43px -32px;
         &:hover{
-            background-position: 0 0;
+            background-position: -43px 0;
         };
     }
 }

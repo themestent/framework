@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
-      "fileType" : 64
-    },
     "\/js\/waypoints.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -22,6 +11,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/waypoints.min-ck.js",
+      "fileType" : 64
+    },
+    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
       "fileType" : 64
     },
     "\/components\/typeplate\/scss\/_typeplate.scss" : {
@@ -93,21 +93,21 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/components\/fastclick\/tests\/22.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/22.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/components\/fastclick\/tests\/18.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/18.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/components\/fastclick\/tests\/22.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/22.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -206,38 +206,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/slider\/img3.jpg" : {
+    "\/components\/fastclick\/tests\/60.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/slider\/img3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/slider\/img3.jpg",
-      "initialSize" : 93203,
-      "fileType" : 4096
-    },
-    "\/img\/slider\/img2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/slider\/img2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/slider\/img2.jpg",
-      "initialSize" : 4528834,
-      "fileType" : 4096
-    },
-    "\/img\/slider\/img1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/slider\/img1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/slider\/img1.jpg",
-      "initialSize" : 3758509,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/60.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/sass\/_responsive-767px-max.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -251,14 +227,38 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/components\/fastclick\/tests\/60.html" : {
+    "\/img\/slider\/img1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/60.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/slider\/img1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/slider\/img1.jpg",
+      "initialSize" : 3758509,
+      "fileType" : 4096
+    },
+    "\/img\/slider\/img2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/slider\/img2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/slider\/img2.jpg",
+      "initialSize" : 4528834,
+      "fileType" : 4096
+    },
+    "\/img\/slider\/img3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/slider\/img3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/slider\/img3.jpg",
+      "initialSize" : 93203,
+      "fileType" : 4096
     },
     "\/components\/fastclick\/tests\/6b.html" : {
       "ignoreWasSetByUser" : 0,
@@ -358,15 +358,6 @@
       "initialSize" : 363,
       "fileType" : 8192
     },
-    "\/components\/fastclick\/tests\/36.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/36.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/ttf-docs\/build\/html\/_static\/file.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -377,6 +368,15 @@
       "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/file.png",
       "initialSize" : 392,
       "fileType" : 8192
+    },
+    "\/components\/fastclick\/tests\/36.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/36.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/components\/jquery\/jquery-migrate.js" : {
       "ignoreWasSetByUser" : 0,
@@ -432,21 +432,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/components\/fastclick\/tests\/26.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/26.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/components\/fastclick\/tests\/30.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/30.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/components\/fastclick\/tests\/7.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/7.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -472,6 +472,15 @@
       "outputAbbreviatedPath" : "\/js\/ttf-ck-ck.js",
       "fileType" : 64
     },
+    "\/components\/fastclick\/tests\/7.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/7.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/lt-ie7.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -482,15 +491,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/lt-ie7-ck.js",
       "fileType" : 64
-    },
-    "\/components\/fastclick\/tests\/26.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/26.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/components\/fastclick\/tests\/45.html" : {
       "ignoreWasSetByUser" : 0,
@@ -604,16 +604,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/components\/bxslider-4\/jquery.bxslider.js" : {
+    "\/css\/sass\/_responsive-utilities.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/sass\/_responsive-utilities.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_responsive-utilities.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/components\/bxslider-4\/images\/controls.png" : {
       "ignoreWasSetByUser" : 0,
@@ -626,17 +627,16 @@
       "initialSize" : 2806,
       "fileType" : 8192
     },
-    "\/css\/sass\/_animate.scss" : {
+    "\/components\/bxslider-4\/jquery.bxslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/_animate.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_animate.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider-ck.js",
+      "fileType" : 64
     },
     "\/components\/fastclick\/tests\/6.html" : {
       "ignoreWasSetByUser" : 0,
@@ -647,15 +647,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/sass\/_responsive-utilities.scss" : {
+    "\/css\/sass\/_animate.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/_responsive-utilities.scss",
+      "inputAbbreviatedPath" : "\/css\/sass\/_animate.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_responsive-utilities.css",
+      "outputAbbreviatedPath" : "\/css\/_animate.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -946,7 +946,7 @@
     },
     "\/css\/sass\/_focal-point.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/sass\/_focal-point.scss",
@@ -968,16 +968,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/jquery.lazyload.min.js" : {
+    "\/components\/fastclick\/tests\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.lazyload.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.lazyload.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/controls.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1012,14 +1010,16 @@
       "outputAbbreviatedPath" : "\/js\/app-ck.js",
       "fileType" : 64
     },
-    "\/components\/fastclick\/tests\/index.html" : {
+    "\/js\/jquery.lazyload.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/jquery.lazyload.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.lazyload.min-ck.js",
+      "fileType" : 64
     },
     "\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1391,12 +1391,12 @@
       "initialSize" : 363,
       "fileType" : 8192
     },
-    "\/ttf-docs\/build\/html\/index.html" : {
+    "\/components\/fastclick\/examples\/layer.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/index.html",
+      "inputAbbreviatedPath" : "\/components\/fastclick\/examples\/layer.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1409,12 +1409,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/components\/fastclick\/examples\/layer.html" : {
+    "\/ttf-docs\/build\/html\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/examples\/layer.html",
+      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1437,6 +1437,15 @@
       "inputAbbreviatedPath" : "\/404.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/focal-point.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/focal-point.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/bxslider.css" : {
       "ignoreWasSetByUser" : 0,

@@ -1911,7 +1911,6 @@ img {
 .clearfix {
   *zoom: 1; }
 
-/* Adaptive Image Framework ( This is optional ) */
 /* Buttons Style */
 /* Normal Buttons Style */
 .btn {
@@ -1990,6 +1989,11 @@ img {
   .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-wrapper .bx-pager.bx-default-pager a.active {
     background: #000; }
 
+/* bxSlider ul li styles */
+.bxslider {
+  margin: 0;
+  padding: 0; }
+
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: 10px;
@@ -2000,7 +2004,7 @@ img {
   right: 10px;
   background: url(../img/controls.png) no-repeat -43px -32px; }
   .bx-wrapper .bx-next:hover {
-    background-position: 0 0; }
+    background-position: -43px 0; }
 
 .bx-wrapper .bx-controls-direction a {
   position: absolute;

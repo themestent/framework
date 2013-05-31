@@ -4,9 +4,8 @@
 
  jQuery(function($){
     $('.bxslider').bxSlider({
-        auto: true,
-        autoControls: true,
         adaptiveHeight: true,
-        mode: 'fade'
+        mode: 'fade',
+        captions: true
     });
  });
