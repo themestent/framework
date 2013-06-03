@@ -21,6 +21,9 @@
     @import "variables";
     @import "mixins";
 
+    /* Bourbon */
+    @import "bourbon";
+
     // Scaffolding
     @import "scaffolding";
 
@@ -47,7 +50,5 @@
     @import "form";
     @import "animate";
 
-
     body{
-
     }
