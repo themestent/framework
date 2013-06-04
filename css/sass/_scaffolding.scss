@@ -26,11 +26,8 @@
 // Horizontal List
 ul.hlist{
     @include horizontal-list();
-    text-align: center;
     > li{
         @include inline-block-list-item(1em);
-        &:first-child{
-            padding-left: 0;
-        };
+        padding-left: 0;
     }
 }

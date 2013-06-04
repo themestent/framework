@@ -58,14 +58,25 @@
       }
 }
 
+/* Rounded button */
 .btn-rounded{
     @include border-radius(4px);
 }
 
-.btn-shiny{
-    @include button(shiny, #ff0000);
+/* Bourbon Pill */
+.btn-pill{
+  @include button(pill);
 }
 
+/* Bourbon Simple  */
+.btn-simple{
+  @include button;
+}
+
+/* Bourbon Simple  */
+.btn-shiny{
+  @include button(shiny, #ff0000);
+}
 
 
 // Button Sizes

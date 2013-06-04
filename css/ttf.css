@@ -698,10 +698,8 @@ ul.hlist {
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
-  text-align: center;
   margin: 0 auto;
-  padding: 0;
-  text-align: center; }
+  padding: 0; }
   ul.hlist > li {
     list-style-image: none;
     list-style-type: none;
@@ -713,9 +711,8 @@ ul.hlist {
     *vertical-align: auto;
     white-space: nowrap;
     padding-left: 1em;
-    padding-right: 1em; }
-    ul.hlist > li:first-child {
-      padding-left: 0; }
+    padding-right: 1em;
+    padding-left: 0; }
 
 /* Global Styles */
 body {
@@ -1915,7 +1912,7 @@ img {
   *vertical-align: auto;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.7em;
   text-align: center;
   vertical-align: middle;
@@ -1978,11 +1975,97 @@ img {
     -moz-box-shadow: none;
     box-shadow: none; }
 
+/* Rounded button */
 .btn-rounded {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
+/* Bourbon Pill */
+.btn-pill {
+  border: 1px solid #3371b2;
+  border-color: #3371b2 #2457a3 #164297;
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 0 #64a9f2, 0 1px 2px 0 #b3b3b3;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1;
+  background-color: #4294f0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4294f0), color-stop(100%, #0156fe));
+  background-image: -webkit-linear-gradient(top, #4294f0, #0156fe);
+  background-image: -moz-linear-gradient(top, #4294f0, #0156fe);
+  background-image: -ms-linear-gradient(top, #4294f0, #0156fe);
+  background-image: -o-linear-gradient(top, #4294f0, #0156fe);
+  background-image: linear-gradient(top, #4294f0, #0156fe);
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #2762bf;
+  -webkit-background-clip: padding-box; }
+  .btn-pill:hover:not(:disabled) {
+    border: 1px solid #2062a7;
+    border-color: #2062a7 #0e479a #01318e;
+    box-shadow: inset 0 1px 0 0 #519cf0;
+    cursor: pointer;
+    background-color: #2d88ee;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d88ee), color-stop(100%, #1554ce));
+    background-image: -webkit-linear-gradient(top, #2d88ee, #1554ce);
+    background-image: -moz-linear-gradient(top, #2d88ee, #1554ce);
+    background-image: -ms-linear-gradient(top, #2d88ee, #1554ce);
+    background-image: -o-linear-gradient(top, #2d88ee, #1554ce);
+    background-image: linear-gradient(top, #2d88ee, #1554ce);
+    text-shadow: 0 -1px 1px #134faf;
+    -webkit-background-clip: padding-box; }
+  .btn-pill:active:not(:disabled) {
+    background: #226edd;
+    border: 1px solid #0d3c8c;
+    border-bottom: 1px solid #062d8d;
+    box-shadow: inset 0 0 6px 3px #0c44b8, 0 1px 0 0 white;
+    text-shadow: 0 -1px 1px #1a52aa; }
+  .btn-pill:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+/* Bourbon Simple  */
+.btn-simple {
+  border: 1px solid #076fe4;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #8ebcf1;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #4294f0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4294f0), color-stop(100%, #0776f3));
+  background-image: -webkit-linear-gradient(top, #4294f0, #0776f3);
+  background-image: -moz-linear-gradient(top, #4294f0, #0776f3);
+  background-image: -ms-linear-gradient(top, #4294f0, #0776f3);
+  background-image: -o-linear-gradient(top, #4294f0, #0776f3);
+  background-image: linear-gradient(top, #4294f0, #0776f3);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #0065d6;
+  -webkit-background-clip: padding-box; }
+  .btn-simple:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #60a2ec;
+    cursor: pointer;
+    background-color: #2f87ea;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f87ea), color-stop(100%, #086fe3));
+    background-image: -webkit-linear-gradient(top, #2f87ea, #086fe3);
+    background-image: -moz-linear-gradient(top, #2f87ea, #086fe3);
+    background-image: -ms-linear-gradient(top, #2f87ea, #086fe3);
+    background-image: -o-linear-gradient(top, #2f87ea, #086fe3);
+    background-image: linear-gradient(top, #2f87ea, #086fe3); }
+  .btn-simple:active:not(:disabled) {
+    border: 1px solid #076fe4;
+    box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3, 0 1px 1px 0 #eeeeee; }
+  .btn-simple:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+/* Bourbon Simple  */
 .btn-shiny {
   border: 1px solid #8a0000;
   border-bottom: 1px solid #810000;
@@ -2020,7 +2103,7 @@ img {
 
 .btn-large {
   padding: 11px 19px;
-  font-size: 1.25em;
+  font-size: 20px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px; }
@@ -2031,7 +2114,7 @@ img {
 
 .btn-small {
   padding: 2px 10px;
-  font-size: 0.85em;
+  font-size: 13.6px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -2046,7 +2129,7 @@ img {
 
 .btn-mini {
   padding: 0px 6px;
-  font-size: 0.75em;
+  font-size: 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -2265,6 +2348,210 @@ input[type="submit"].btn {
   color: #333333;
   text-decoration: none; }
 
+.btn-group {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  font-size: 0;
+  vertical-align: middle;
+  white-space: nowrap;
+  *margin-left: .3em; }
+  .btn-group:first-child {
+    *margin-left: 0; }
+
+.btn-group + .btn-group {
+  margin-left: 5px; }
+
+.btn-toolbar {
+  font-size: 0;
+  margin-top: 0.85em;
+  margin-bottom: 0.85em; }
+  .btn-toolbar > .btn + .btn,
+  .btn-toolbar > .btn-group + .btn,
+  .btn-toolbar > .btn + .btn-group {
+    margin-left: 5px; }
+
+.btn-group > .btn {
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.btn-group > .btn + .btn {
+  margin-left: -1px; }
+
+.btn-group > .btn,
+.btn-group > .dropdown-menu,
+.btn-group > .popover {
+  font-size: 16px; }
+
+.btn-group > .btn-mini {
+  font-size: 12px; }
+
+.btn-group > .btn-small {
+  font-size: 13.6px; }
+
+.btn-group > .btn-large {
+  font-size: 20px; }
+
+.btn-group > .btn:first-child {
+  margin-left: 0;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px; }
+
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px; }
+
+.btn-group > .btn.large:first-child {
+  margin-left: 0;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px; }
+
+.btn-group > .btn.large:last-child,
+.btn-group > .large.dropdown-toggle {
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px; }
+
+.btn-group > .btn:hover,
+.btn-group > .btn:focus,
+.btn-group > .btn:active,
+.btn-group > .btn.active {
+  z-index: 2; }
+
+.btn-group .dropdown-toggle:active,
+.btn-group.open .dropdown-toggle {
+  outline: 0; }
+
+.btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  *padding-top: 5px;
+  *padding-bottom: 5px; }
+
+.btn-group > .btn-mini + .dropdown-toggle {
+  padding-left: 5px;
+  padding-right: 5px;
+  *padding-top: 2px;
+  *padding-bottom: 2px; }
+
+.btn-group > .btn-small + .dropdown-toggle {
+  *padding-top: 5px;
+  *padding-bottom: 4px; }
+
+.btn-group > .btn-large + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+  *padding-top: 7px;
+  *padding-bottom: 7px; }
+
+.btn-group.open .dropdown-toggle {
+  background-image: none;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
+.btn-group.open .btn.dropdown-toggle {
+  background-color: #e6e6e6; }
+.btn-group.open .btn-primary.dropdown-toggle {
+  background-color: #004ddb; }
+.btn-group.open .btn-warning.dropdown-toggle {
+  background-color: #f89406; }
+.btn-group.open .btn-danger.dropdown-toggle {
+  background-color: #bd362f; }
+.btn-group.open .btn-success.dropdown-toggle {
+  background-color: #51a351; }
+.btn-group.open .btn-info.dropdown-toggle {
+  background-color: #2f96b4; }
+.btn-group.open .btn-inverse.dropdown-toggle {
+  background-color: #222222; }
+
+.btn .caret {
+  margin-top: 8px;
+  margin-left: 0; }
+
+.btn-mini .caret,
+.btn-small .caret,
+.btn-large .caret {
+  margin-top: 6px; }
+
+.btn-large .caret {
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-top-width: 5px; }
+
+.dropup .btn-large .caret {
+  border-bottom-width: 5px; }
+
+.btn-primary .caret,
+.btn-warning .caret,
+.btn-danger .caret,
+.btn-info .caret,
+.btn-success .caret,
+.btn-inverse .caret {
+  border-top-color: white;
+  border-bottom-color: white; }
+
+.btn-group-vertical {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1; }
+
+.btn-group-vertical > .btn {
+  display: block;
+  float: none;
+  max-width: 100%;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.btn-group-vertical > .btn + .btn {
+  margin-left: 0;
+  margin-top: -1px; }
+
+.btn-group-vertical > .btn:first-child {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0; }
+
+.btn-group-vertical > .btn:last-child {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px; }
+
+.btn-group-vertical > .btn-large:first-child {
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0; }
+
+.btn-group-vertical > .btn-large:last-child {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px; }
+
+/* bxSlider */
 /**
  * BxSlider v4.0 - Fully loaded, responsive content slider
  * http://bxslider.com
