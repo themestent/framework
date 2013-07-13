@@ -34,6 +34,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/iconic_stroke.css">
         <link rel="stylesheet" href="css/ttf.css">
+        <link rel="stylesheet" href="css/app.css">
         <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -42,88 +43,79 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div>
-            <header class="main-header" role="banner">
-                <div class="container">
-                    <div class="row">
-                        <div class="span12">
-                            <h1>TemesTent Framework</h1>
-                            <h2>An advanced starter template for Front End Developers</h2>
-                        </div>
-                    </div>
-                </div>
-            </header>
 
-            <section class="container">
-                <div class="row">
-                    <div class="span6">
-                            <!-- Common Buttons -->
-                            <h3>Common Buttons</h3>
-                            <ul class="hlist">
-                                <li><a href="#" title="Normal Button" class="btn">Normal button</a></li>
-                                <li><a href="#" title="Normal Rounded" class="btn btn-rounded">Normal Rounded</a></li>
-                                <li><a href="#" title="Primary Button" class="btn btn-primary">Primary Normal</a></li>
-                                <li><a href="#" title="Primary Rounded" class="btn btn-primary btn-rounded">Primary Rounded</a></li>
+        <!-- Main Header -->
+        <header class="main-header" id="mainHeader">
+            <!-- Navigation Bar -->
+            <nav class="navrbar" id="headerNav">
+                <h1 class="visuallyhidden">ThemesTent Framework Navigation</h1>
+                <div class="container">
+                    <a href="#" class="nav-link"><span class="ittf-home-3"></span></a>
+                    <ul class="nav">
+                        <li><a href="#">Features</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Docs <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Grid</a></li>
+                                <li><a href="#">Components</a></li>
                             </ul>
-                            <h4>Action Button</h4>
-                            <a href="#" class="btn btn-action">Action Button</a>
-                            <h4>Bourbon Buttons</h4>
-                            <ul class="hlist">
-                                <li><a href="#" title="Primary Rounded" class="btn-simple">Simple Button</a></li>
-                                <li><a href="#" title="Primary Rounded" class="btn-pill">Pill Button</a></li>
-                                <li><a href="#" title="Primary Rounded" class="btn-shiny">Pill Button</a></li>
-                            </ul>
-                    </div>
-                    <div class="span6">
-                        <!-- Combined Buttons -->
-                        <h3>Combined buttons</h3>
-                        <h4>Buttons group</h4>
-                        <div class="btn-group">
-                          <a class="btn">Left</a>
-                          <a class="btn">Middle</a>
-                          <a class="btn">Right</a>
-                        </div>
-                        <h4>Multiple button groups</h4>
-                        <div class="btn-toolbar">
-                            <div class="btn-group">
-                                <button class="btn">1</button>
-                                <button class="btn">2</button>
-                                <button class="btn">3</button>
-                                <button class="btn">4</button>
-                              </div>
-                        </div>
-                    </div>
+                        </li>
+                        <li><a href="#">Stories</a></li>
+                    </ul>
                 </div>
-                <!-- Slider -->
-                <div class="row">
-                    <!-- BxSlider -->
-                    <div class="span12">
-                        <seection class="slider-section">
-                                    <h1>Responsive Slider by bxSlider</h1>
-                                    <ul id="bxSlider" class="bxslider">
-                                      <li><img src="img/slider/img1.jpg" alt="Slider Image One" title="Slider Image One" /></li>
-                                      <li><img src="img/slider/img2.jpg" alt="Slider Image One" title="Slider Image One" /></li>
-                                      <li><img src="img/slider/img3.jpg" alt="Slider Image One" title="Slider Image One" /></li>
-                                    </ul>
-                        </section>
-                    </div>
-                </div>
-                <!-- helper Section -->
-                <div class="row">
-                    <div class="helper-section">
-                        <!-- Horizontal List Section -->
-                        <div class="hlist-section">
-                            <ul class="hlist">
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                                <li>Item 3</li>
-                                <li>Item 4</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+            </nav>
+            <a class="nav-btn" id="nav-open-btn" href="#nav">Book Navigation</a>
+
+            <!-- #Off Canvas Menu -->
+            <div class="container" id="main">
+              <div class="row-fluid" style="
+                margin-bottom: 10px;">
+                <p class="span12">
+                  <a href="#menu" class="side-menu-link btn btn-mini" title="Click for sub-menu">
+                    <i class="icon-th"></i>
+                  </a>
+                </p>
+              </div>
+              <div id="wrap" class="row-fluid wrap">
+                <!--Sidebar content-->
+                <aside class="well span3 oc" id="side-menu" role="navigation">
+                  <ul class="nav nav-list">
+                    <li class="nav-header">Title 1</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li class="nav-header">Title 2</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li class="nav-header">Title 3</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li class="nav-header">Title 4</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li class="nav-header">Title 5</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li class="nav-header">Title 6</li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                    <li><a href="#">Sube Menu Link</a></li>
+                  </ul>
+                </aside>
+
+                <!--Body content-->
+                <section class="well span9 ">
+                  <h2>Web Module - Index</h2>
+                  <ul class="nav">
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Customers</a></li>
+                  </ul>
+                </section>
+
+              </div>
+            </div>
+            <!-- #Off Canvas Menu -->
+            <h1 class="logo-title"><a href="#" title="ThemesTent Framework">ThemesTent Framework</a></h1>
+        </header>
+        <!-- #Main Header -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="components/jquery/jquery.min.js"><\/script>')</script>
         <script src="components/jquery/jquery-migrate.min.js"></script>

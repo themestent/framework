@@ -15,7 +15,7 @@
 
     // Importing ThemesTent Native Source Icon
     // It is optional
-    @import "ttf-source-icon";
+    @import "ttf-icon";
 
     /* Core Variables & Mixins */
     @import "variables";
@@ -38,6 +38,14 @@
     /* Layouts Style */
     @import "layouts";
     @import "responsive";
+
+    /* Base Components */
+    @import "code";
+    @import "form";
+
+    /* Common Components */
+    @import "dropdowns";
+
     @import "retina";
     @import "modular";
     @import "helper";
@@ -47,11 +55,15 @@
     @import "buttons";
     @import "buttons-group";
 
+    // Components: Nav
+    @import "navs";
+    //@import "navbar";
+
     /* bxSlider */
     @import "bxslider";
 
-    @import "form";
     @import "animate";
 
     body{
+
     }
