@@ -26,17 +26,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/sass\/bourbon\/bourbon\/_bourbon.scss" : {
+    "\/components\/fastclick\/examples\/focus.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/bourbon\/bourbon\/_bourbon.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_bourbon.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/components\/fastclick\/examples\/focus.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/sass\/app.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1479,17 +1476,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
-      "fileType" : 64
-    },
     "\/css\/sass\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1501,6 +1487,17 @@
       "outputAbbreviatedPath" : "\/css\/_keyframes.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
+      "fileType" : 64
     },
     "\/components\/typeplate\/css\/typeplate.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2753,14 +2750,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/components\/fastclick\/examples\/focus.html" : {
+    "\/css\/sass\/bourbon\/bourbon\/_bourbon.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/examples\/focus.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/css\/sass\/bourbon\/bourbon\/_bourbon.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_bourbon.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
