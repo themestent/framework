@@ -11,6 +11,6 @@
     "FitText.js": "https://github.com/davatron5000/FitText.js.git",
     "typeplate": "latest",
     "bxslider-4": "git://github.com/wandoledzep/bxslider-4.git",
-    "bootstrap-sass": '"https://github.com/thomas-mcdonald/bootstrap-sass/tree/master/vendor/assets/stylesheets"
+    "bootstrap-sass": '"https://github.com/thomas-mcdonald/bootstrap-sass.git"
   }
 }
