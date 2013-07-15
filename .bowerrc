@@ -1,5 +1,5 @@
 {
-  "directory" : "/",
+  "directory" : "ThemesTent-Packages",
   "json"      : "bower.json",
   "endpoint"  : "https://Bower.herokuapp.com",
   "searchpath"  : "",
