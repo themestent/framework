@@ -2,18 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/css\/sass\/bourbon\/css3\/_user-select.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/bourbon\/css3\/_user-select.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_user-select.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/sass\/bourbon\/bourbon\/functions\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -34,6 +22,18 @@
       "inputAbbreviatedPath" : "\/components\/fastclick\/examples\/focus.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/sass\/bourbon\/css3\/_user-select.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/sass\/bourbon\/css3\/_user-select.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_user-select.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/sass\/app.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -372,18 +372,6 @@
       "outputAbbreviatedPath" : "\/js\/lt-ie7-ck.js",
       "fileType" : 64
     },
-    "\/css\/sass\/_reset.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/sass\/_reset.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_reset.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/sass\/bourbon\/bourbon\/addons\/_html5-input-types.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -393,6 +381,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_html5-input-types.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/sass\/_reset.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/sass\/_reset.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -915,6 +915,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/css\/ttf.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/ttf.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/components\/bxslider-4\/jquery.bxslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -925,15 +934,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bxslider-4\/jquery.bxslider-ck.js",
       "fileType" : 64
-    },
-    "\/css\/ttf.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ttf.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/sass\/bourbon\/bourbon\/css3\/_background-size.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1476,6 +1476,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
+      "fileType" : 64
+    },
     "\/css\/sass\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1487,17 +1498,6 @@
       "outputAbbreviatedPath" : "\/css\/_keyframes.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/ttf-docs\/build\/html\/_static\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/ttf-docs\/build\/html\/_static\/jquery-ck.js",
-      "fileType" : 64
     },
     "\/components\/typeplate\/css\/typeplate.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1763,24 +1763,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min-ck.js",
       "fileType" : 64
     },
-    "\/components\/fastclick\/tests\/60.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/60.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/components\/fastclick\/tests\/48.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/48.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/components\/bxslider-4\/images\/controls.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1791,6 +1773,24 @@
       "outputAbbreviatedPath" : "\/components\/bxslider-4\/images\/controls.png",
       "initialSize" : 2806,
       "fileType" : 8192
+    },
+    "\/components\/fastclick\/tests\/48.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/48.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/components\/fastclick\/tests\/60.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/fastclick\/tests\/60.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/sass\/bourbon\/bourbon\/css3\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
