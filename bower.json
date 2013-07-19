@@ -3,14 +3,23 @@
   "version": "0.1.0",
   "main": [
     "./css/ttf.css",
-    "./js/ttf.js"
+    "./js/ttf-bundle.js"
   ],
-  "dependencies": {
+  "ignore": [
+      ".jshintrc",
+      "**/*.txt",
+      ".sass-cache",
+      "codekit-config.json"
+    ],
+  "dependencies":{
     "jquery": "~1.9.1",
+    "Modernizr": "latest"
+    },
+  "devdependencies": {
     "fastclick": "https://github.com/ftlabs/fastclick.git#~0.5.6",
     "FitText.js": "https://github.com/davatron5000/FitText.js.git",
     "typeplate": "latest",
     "bxslider-4": "git://github.com/wandoledzep/bxslider-4.git",
-    "bootstrap-sass": "https://github.com/thomas-mcdonald/bootstrap-sass.git"
+    "twitter-bootstrap-sass": "latest"
   }
 }
