@@ -1,7 +1,7 @@
 {
   "directory" : "ThemesTent-Packages",
-  "endpoint"  : "themestent/framework",
+  "endpoint"  : "https://github.com/themestent/framework",
   "json"      : "bower.json",
-  "searchpath": "https://github.com/themestent/",
-  "shorthand_resolver": "git://github.com/themestent/framework.git"
+  "searchpath": "https://bower.herokuapp.com",
+  "shorthand_resolver": ""
 }
