@@ -13,7 +13,7 @@
     ],
   "dependencies":{
     "jquery": "~1.9.1",
-    "Modernizr": "~2.6.2"
+    "Modernizr": "git://github.com/Modernizr/Modernizr.git"
     },
   "devDependencies": {
     "fastclick": "https://github.com/ftlabs/fastclick.git#~0.5.6",
