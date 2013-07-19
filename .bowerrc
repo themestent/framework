@@ -3,5 +3,5 @@
   "endpoint"  : "https://github.com/themestent/framework",
   "json"      : "bower.json",
   "searchpath": "https://bower.herokuapp.com",
-  "shorthand_resolver": ""
+  "shorthand_resolver": "git://github.com/themestent/framework.git"
 }
